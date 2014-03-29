@@ -1,5 +1,5 @@
 {
-	"name": "express-coffee", 
+	"name": "express-coffee",
 	"version": "1.8.1",
 	"private": true,
 	"author": "Tom Wilson <tom@jackhq.com> (http://github.com/twilson63)",
@@ -11,7 +11,7 @@
 	    "install": "node node_modules/coffee-script/bin/cake build",
 	    "start": "node server.js",
 	    "test": "mocha --require should --compilers coffee:coffee-script --colors"
-	}, 
+	},
 	"dependencies": {
 		"express": "3.x",
 		"coffee-script": "1.6.x",
@@ -21,9 +21,8 @@
 		"nib": "0.9.x",
 		"markdown": "0.4.0",
 		"which": "1.0.5",
-		"mongoose": "3.6.x",
 		"wrench": "1.5.1"
-	}, 
+	},
 	"devDependencies": {
 		"coffee-script": "*",
     "mocha": "*",
@@ -35,7 +34,7 @@
     "puts": "*",
     "node-inspector": "*",
     "ejs": "*"
-	}, 
+	},
 	"engines": {
 		"node": "~0.10.x",
 		"npm": "1.2.x"
@@ -43,7 +42,7 @@
 	"licenses": [
 	  {
 	    "type": "MIT",
-	    "url": "http://www.opensource.org/licenses/mit-license.php" 
+	    "url": "http://www.opensource.org/licenses/mit-license.php"
 	  }
 	],
 	"contributors": [

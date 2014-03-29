@@ -6,13 +6,13 @@ It comes ready to go with connect-assets that give you the option
 to use coffee-script and stylus for the client side.
 
 ## Technologies
-This is a template that can be used to create nodejs applications using 
+This is a template that can be used to create nodejs applications using
 
 * Node v0.10.x
 * Express v3.2.x
 * CoffeeScript v1.6.x
 * Jade v0.30.0
-* Stylus v0.32.x 
+* Stylus v0.32.x
 * bootstrap-stylus 2.3.1 (not a npm module)
 * Nib v0.9.x
 * Connect Assets v2.4.x
@@ -29,9 +29,8 @@ This is a template that can be used to create nodejs applications using
 * [Nib](http://visionmedia.github.io/nib/)
 * [connect-assets](http://github.com/TrevorBurnham/connect-assets)
 * [Mocha](http://visionmedia.github.com/mocha/)
-* [Mongoose](https://github.com/LearnBoost/mongoose)
 
-These will install with npm, just do 
+These will install with npm, just do
 
 ```
 npm install
@@ -100,14 +99,14 @@ to run mocha
 
 ## About
 
-express-coffee is a template or boiler-plate to get started writing 
+express-coffee is a template or boiler-plate to get started writing
 express web applications in CoffeeScript.  It comes ready to go with base
-setup for an Express Web App.  It includes a Cakefile that lets you build, 
+setup for an Express Web App.  It includes a Cakefile that lets you build,
 spec, and watch your coffeescript as you develop.  You hack in the src folder
 and run cake build to build you server files, write your mocha in
 your test folder and run cake test or spec to run your test suite.  Create your
 jade views in the views folder and put your public assets in the public
-folder.  Enjoy your express-coffee 
+folder.  Enjoy your express-coffee
 
 
 ## License
