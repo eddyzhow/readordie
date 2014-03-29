@@ -16,9 +16,8 @@
 		"express": "3.x",
 		"coffee-script": "1.6.x",
 		"jade": "0.30.x",
-		"connect-assets": "2.4.x",
-		"stylus": "0.32.x",
-		"nib": "0.9.x",
+		"connect-assets": "3.x",
+		"node-sass": "0.8.x",
 		"markdown": "0.4.0",
 		"which": "1.0.5",
 		"wrench": "1.5.1"

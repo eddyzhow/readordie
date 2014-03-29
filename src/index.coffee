@@ -1,5 +1,4 @@
 express = require 'express'
-stylus = require 'stylus'
 assets = require 'connect-assets'
 
 #### Basic application initialization

@@ -1,4 +1,4 @@
-# Express Coffee Template 8 (1.8.1)
+# Read or Die
 
 This is a Node Express CoffeeScript Stack Template
 
@@ -24,9 +24,6 @@ This is a template that can be used to create nodejs applications using
 * [Express](http://expressjs.com)
 * [CoffeeScript](http://coffeescript.org)
 * [Jade](http://jade-lang.com/)
-* [Stylus](http://learnboost.github.io/stylus/)
-* [bootstrap-stylus](https://github.com/Acquisio/bootstrap-stylus)
-* [Nib](http://visionmedia.github.io/nib/)
 * [connect-assets](http://github.com/TrevorBurnham/connect-assets)
 * [Mocha](http://visionmedia.github.com/mocha/)
 
