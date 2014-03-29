@@ -1,4 +1,4 @@
-class @ReadOrDieReader
+class @Canvas
   offsetX: 282
   offsetY: 94
 
@@ -55,11 +55,9 @@ class @ReadOrDieReader
     [left, center, right] = @splitAtCenter term
 
     first = @measureWidth left
-    second = @measureWidth left + center
-
-    offset = second + (second - first) / 2
-
-    console.info offset
+    second = @measureWidth center
+    divBy = if center == 'r' then 2 else 2
+    offset = first + second / divBy
 
     @offsetX - offset
 
