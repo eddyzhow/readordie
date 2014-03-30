@@ -14,18 +14,23 @@ $ ->
 
   Mousetrap.bind 'space', ->
     player.toggle()
+    false
 
   Mousetrap.bind 'left', ->
     player.drawPrev()
+    false
 
   Mousetrap.bind 'right', ->
     player.drawNext()
+    false
 
   Mousetrap.bind 'up', ->
     player.faster()
     console.info player.wpm, 'wpm'
+    false
 
   Mousetrap.bind 'down', ->
     player.slower()
     console.info player.wpm, 'wpm'
+    false
 
