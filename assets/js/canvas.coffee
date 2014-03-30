@@ -78,7 +78,7 @@ class @Canvas
 
     for i, part of parts
       color = if i % 2 == 1 then 'red' else 'black'
-      @ctx.setFillColor color
+      @ctx.fillStyle = color
       @ctx.fillText part, x, @offsetY
       x += @measureWidth part
     true
