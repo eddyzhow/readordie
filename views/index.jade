@@ -18,6 +18,31 @@ block content
           .col-md-10.col-md-offset-1
             canvas#canvas(width='740', height='150')
 
+            .controller
+              div.col-md-10
+                div.navbar
+                  div.navbar-inner
+                    ul.nav
+                      li
+                        button#play-button.btn  _
+                      li
+                        p.navbar-text play/pause
+                      li.divider
+                      li
+                        button#speed-up-button.btn
+                          i.icon-chevron-up
+                      li
+                        button#speed-down-button.btn
+                          i.icon-chevron-down
+                      li
+                        p.navbar-text speed up/down by 50 wpm
+                      li
+                        p.navbar-text
+                      li.divider
+                      li.pull-right
+                        p#speed-wpm.navbar-text 200 wpm
+
+
     .container
       .row
         .col-md-10.col-md-offset-1.info
