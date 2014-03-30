@@ -4,7 +4,6 @@
 #= require canvas
 #= require player
 
-
 $ ->
   canvas = new Canvas $('#canvas')
   canvas.draw('Heeeeey')
@@ -26,11 +25,21 @@ $ ->
 
   Mousetrap.bind 'up', ->
     player.faster()
-    console.info player.wpm, 'wpm'
+    $('#speed-wpm').text player.wpm + ' wpm'
     false
 
   Mousetrap.bind 'down', ->
     player.slower()
-    console.info player.wpm, 'wpm'
+    $('#speed-wpm').text player.wpm + ' wpm'
     false
 
+  $('#play-button').click ->
+    player.toggle()
+
+  $('#speed-up-button').click ->
+    player.faster()
+    $('#speed-wpm').text player.wpm + ' wpm'
+
+  $('#speed-down-button').click ->
+    player.slower()
+    $('#speed-wpm').text player.wpm + ' wpm'
