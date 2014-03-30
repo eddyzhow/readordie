@@ -1,5 +1,5 @@
 class @Player
-  wpm: 300
+  wpm: 350
 
   constructor: (canvas, tokens) ->
     @canvas = canvas
