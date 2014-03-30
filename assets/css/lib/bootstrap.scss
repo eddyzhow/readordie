@@ -2,6 +2,8 @@
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
 
+$icon-font-path: "/fonts/bootstrap/";
+
 // Reset
 @import "bootstrap/normalize";
 @import "bootstrap/print";
