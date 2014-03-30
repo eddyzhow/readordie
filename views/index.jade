@@ -2,11 +2,12 @@ extends layout
 block content
   .home.index
     .container
-      .row
-        .col-md-10.col-md-offset-1
-          .jumbotron
-            h1 Read or Die!
-            p Start reading up to 10 times faster today.
+      .row.intro
+        .col-md-2.col-md-offset-1
+          img.logo(src="/img/logo.png", width="161", height="161", alt="Read or Die Logo")
+        .col-md-8.copy
+          h1 Read or Die!
+          p.lead Start reading up to 10 times faster today.
 
     .demo
       .container
@@ -20,3 +21,4 @@ block content
           p.lead How many interesting articles have you been sent that you've never read? How many unread books line your shelves? Does your collection always grow faster than your reading?
 
           p.lead We need a better way to absorb knowledge, one that takes less time and is more effective. Read or Die provides an optimized, distraction-free way to do just that.
+
