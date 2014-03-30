@@ -1,78 +1,13 @@
 @data = {
-  "n": 29,
+  "n": 47,
   "tokens": [
     {
-      "term": "Sorry,",
+      "term": "In",
       "duration": 1,
       "pause": 1
     },
     {
-      "term": "this",
-      "duration": 1,
-      "pause": 1
-    },
-    {
-      "term": "isn't",
-      "duration": 1,
-      "pause": 1
-    },
-    {
-      "term": "the",
-      "duration": 1,
-      "pause": 1
-    },
-    {
-      "term": "text",
-      "duration": 1,
-      "pause": 1
-    },
-    {
-      "term": "from",
-      "duration": 1,
-      "pause": 1
-    },
-    {
-      "term": "your",
-      "duration": 1,
-      "pause": 1
-    },
-    {
-      "term": "page.",
-      "duration": 1,
-      "pause": 1
-    },
-    {
-      "term": "We're",
-      "duration": 1,
-      "pause": 1
-    },
-    {
-      "term": "busy",
-      "duration": 1,
-      "pause": 1
-    },
-    {
-      "term": "working",
-      "duration": 1,
-      "pause": 1
-    },
-    {
-      "term": "on",
-      "duration": 1,
-      "pause": 1
-    },
-    {
-      "term": "this",
-      "duration": 1,
-      "pause": 1
-    },
-    {
-      "term": "service,",
-      "duration": 1,
-      "pause": 1
-    },
-    {
-      "term": "but",
+      "term": "reading,",
       "duration": 1,
       "pause": 1
     },
@@ -82,57 +17,77 @@
       "pause": 1
     },
     {
-      "term": "isn't",
+      "term": "turns",
       "duration": 1,
       "pause": 1
     },
     {
-      "term": "quite",
+      "term": "out",
       "duration": 1,
       "pause": 1
     },
     {
-      "term": "finished",
+      "term": "that",
       "duration": 1,
       "pause": 1
     },
     {
-      "term": "yet.",
+      "term": "most",
       "duration": 1,
       "pause": 1
     },
     {
-      "term": "Please",
+      "term": "of",
       "duration": 1,
       "pause": 1
     },
     {
-      "term": "show",
+      "term": "our",
       "duration": 1,
       "pause": 1
     },
     {
-      "term": "us",
+      "term": "time",
       "duration": 1,
       "pause": 1
     },
     {
-      "term": "some",
+      "term": "and",
       "duration": 1,
       "pause": 1
     },
     {
-      "term": "support",
+      "term": "energy",
       "duration": 1,
       "pause": 1
     },
     {
-      "term": "by",
+      "term": "is",
       "duration": 1,
       "pause": 1
     },
     {
-      "term": "tweeting",
+      "term": "spent",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "actually",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "moving",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "our",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "eyes",
       "duration": 1,
       "pause": 1
     },
@@ -142,10 +97,144 @@
       "pause": 1
     },
     {
-      "term": "@readordietoday.",
+      "term": "the",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "next",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "word.",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "But",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "when",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "we",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "keep",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "words",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "in",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "a",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "static",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "space,",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "our",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "eyes",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "can",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "relax.",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "That's",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "why",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "you're",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "now",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "reading",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "many",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "times",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "faster",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "than",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "the",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "average",
+      "duration": 1,
+      "pause": 1
+    },
+    {
+      "term": "person.",
       "duration": 1,
       "pause": 1
     }
   ]
 }
-

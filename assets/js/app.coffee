@@ -7,7 +7,7 @@
 
 $ ->
   canvas = new Canvas $('#canvas')
-  canvas.draw('Heeeeey')
+  canvas.draw('Hello')
 
   player = new Player(canvas, window.data.tokens)
   setTimeout player.play, 2000
