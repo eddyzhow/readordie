@@ -7,6 +7,7 @@ class @Canvas
     @originalWidth = @canvasEl.width()
     @originalHeight = @canvasEl.height()
     @setContext()
+    @drawVerticalLine()
     # @enableHighRes()
     @setFontStyles()
 
@@ -26,6 +27,12 @@ class @Canvas
 
   width: -> @canvasEl.width()
   height: -> @canvasEl.height()
+
+  drawVerticalLine: ->
+    @ctx.moveTo(@offsetX, 0)
+    @ctx.lineTo(@offsetX, @height())
+    @ctx.strokeStyle = "#aaa"
+    @ctx.stroke()
 
   centerCharPos: (term) ->
     len = term.length
@@ -77,5 +84,5 @@ class @Canvas
     true
 
   clear: ->
-    @ctx.clearRect 0, 0, @width(), @height()
+    @ctx.clearRect 0, 30, @width(), @height() - 60
 
