@@ -19,21 +19,21 @@ block content
             canvas#canvas(width='740', height='150')
 
             .controller
-              div.col-md-10
-                div.navbar
-                  div.navbar-inner
-                    ul.nav
+              .col-md-10
+                .navbar.navbar-default
+                  .container-fluid
+                    ul.nav.navbar-nav
                       li
-                        button#play-button.btn  _
-                      li
+                        button#play-button.btn.navbar-btn  _
+                      li.play-pause-label
                         p.navbar-text play/pause
                       li.divider
                       li
-                        button#speed-up-button.btn
-                          i.icon-chevron-up
+                        button#speed-up-button.btn.navbar-btn
+                          span.glyphicon.glyphicon-chevron-up
                       li
-                        button#speed-down-button.btn
-                          i.icon-chevron-down
+                        button#speed-down-button.btn.navbar-btn
+                          span.glyphicon.glyphicon-chevron-down
                       li
                         p.navbar-text speed up/down by 50 wpm
                       li
